@@ -1,0 +1,2 @@
+# RabbitMQAdminClient
+RabbitMQ administration client
