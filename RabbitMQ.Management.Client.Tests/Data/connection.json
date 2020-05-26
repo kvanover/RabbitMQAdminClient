@@ -1,0 +1,66 @@
+{
+  "frame_max": 131072,
+  "ssl_hash": "sha",
+  "channels": 0,
+  "auth_mechanism": "PLAIN",
+  "type": "network",
+  "timeout": 60,
+  "recv_cnt": 8333,
+  "user": "vhost01",
+  "peer_port": 34137,
+  "port": 5671,
+  "state": "running",
+  "ssl_cipher": "aes_128_cbc",
+  "channel_max": 0,
+  "send_cnt": 4170,
+  "send_oct": 313885,
+  "protocol": "AMQP 0-9-1",
+  "recv_oct_details": {
+    "rate": 14.8
+  },
+  "peer_cert_validity": "",
+  "peer_cert_subject": "",
+  "peer_host": "35.35.53.53",
+  "ssl": true,
+  "node": "rabbit@dummy-bat-01",
+  "connected_at": 1576488056130,
+  "garbage_collection": {
+    "fullsweep_after": 65535,
+    "max_heap_size": 0,
+    "min_bin_vheap_size": 46422,
+    "min_heap_size": 233,
+    "minor_gcs": 2318
+  },
+  "client_properties": {
+    "capabilities": {
+      "authentication_failure_close": true,
+      "basic.nack": true,
+      "connection.blocked": true,
+      "consumer_cancel_notify": true,
+      "exchange_exchange_bindings": true,
+      "publisher_confirms": true
+    },
+    "connection_name": "undefined",
+    "copyright": "Copyright (c) 2007-2016 Pivotal Software, Inc.",
+    "information": "Licensed under the MPL.  See http://www.rabbitmq.com/",
+    "platform": ".NET",
+    "product": "RabbitMQ",
+    "version": "5.1.2"
+  },
+  "ssl_protocol": "tlsv1",
+  "recv_oct": 617440,
+  "user_who_performed_action": "vhost01",
+  "reductions_details": {
+    "rate": 203.2
+  },
+  "ssl_key_exchange": "ecdhe_rsa",
+  "send_pend": 0,
+  "reductions": 23770604,
+  "vhost": "vhost01",
+  "host": "10.56.72.2",
+  "send_oct_details": {
+    "rate": 0.0
+  },
+  "name": "35.35.53.53:34137 -> 10.56.72.2:5671",
+  "peer_cert_issuer": ""
+}

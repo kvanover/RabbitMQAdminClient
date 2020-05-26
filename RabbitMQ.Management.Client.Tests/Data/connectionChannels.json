@@ -1,0 +1,362 @@
+[
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 0,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 4
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (1)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 1,
+    "pending_raft_commands": 0,
+    "prefetch_count": 0,
+    "reductions": 1141,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (10)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 10,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2223,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (2)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 2,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2230,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (3)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 3,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2241,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (4)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 4,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2252,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (5)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 5,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2216,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (6)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 6,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2230,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (7)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 7,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2226,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (8)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 8,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2237,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  },
+  {
+    "acks_uncommitted": 0,
+    "confirm": false,
+    "connection_details": {
+      "name": "35.35.53.53:35173 -> 10.56.72.2:5671",
+      "peer_host": "35.35.53.53",
+      "peer_port": 35173
+    },
+    "consumer_count": 1,
+    "garbage_collection": {
+      "fullsweep_after": 65535,
+      "max_heap_size": 0,
+      "min_bin_vheap_size": 46422,
+      "min_heap_size": 233,
+      "minor_gcs": 6
+    },
+    "global_prefetch_count": 0,
+    "idle_since": "2019-12-17 15:40:14",
+    "messages_unacknowledged": 0,
+    "messages_uncommitted": 0,
+    "messages_unconfirmed": 0,
+    "name": "35.35.53.53:35173 -> 10.56.72.2:5671 (9)",
+    "node": "rabbit@dummy-bat-01",
+    "number": 9,
+    "pending_raft_commands": 0,
+    "prefetch_count": 1000,
+    "reductions": 2211,
+    "reductions_details": {
+      "rate": 0.0
+    },
+    "state": "running",
+    "transactional": false,
+    "user": "vhost01",
+    "user_who_performed_action": "vhost01",
+    "vhost": "vhost01"
+  }
+]

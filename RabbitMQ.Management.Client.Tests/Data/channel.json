@@ -1,0 +1,39 @@
+{
+  "acks_uncommitted": 0,
+  "confirm": false,
+  "connection_details": {
+    "name": "35.35.53.53:34279 -> 10.56.72.2:5671",
+    "peer_host": "35.35.53.53",
+    "peer_port": 34279
+  },
+  "consumer_count": 0,
+  "consumer_details": [],
+  "deliveries": [],
+  "garbage_collection": {
+    "fullsweep_after": 65535,
+    "max_heap_size": 0,
+    "min_bin_vheap_size": 46422,
+    "min_heap_size": 233,
+    "minor_gcs": 4
+  },
+  "global_prefetch_count": 0,
+  "idle_since": "2019-12-17 9:50:19",
+  "messages_unacknowledged": 0,
+  "messages_uncommitted": 0,
+  "messages_unconfirmed": 0,
+  "name": "foo",
+  "node": "rabbit@dummy-bat-01",
+  "number": 1,
+  "pending_raft_commands": 0,
+  "prefetch_count": 0,
+  "publishes": [],
+  "reductions": 1141,
+  "reductions_details": {
+    "rate": 0.0
+  },
+  "state": "running",
+  "transactional": false,
+  "user": "vhost01",
+  "user_who_performed_action": "vhost01",
+  "vhost": "vhost01"
+}
