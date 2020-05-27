@@ -20,4 +20,13 @@ namespace RabbitMQ.Management.Client.Models
         [JsonPropertyName("arguments")]
         public IDictionary<string, object> Arguments { get; set; }
     }
+
+    public class VirtualHostUpdateRequest
+    {
+        [JsonPropertyName("description")]
+        public string Description { get; set; }
+
+        [JsonPropertyName("tags")]
+        public string Tags { get; set; }
+    }
 }

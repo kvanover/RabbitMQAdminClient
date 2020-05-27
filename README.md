@@ -2,7 +2,7 @@
 
 This project contains the source code of the RabbitMQ management API client for .Net.
 
-[![Build Status](https://dev.azure.com/koenvanoverloop/rabbitmq-management-client/_apis/build/status/kvanover.rabbitmq-management-client?branchName=master)](https://dev.azure.com/koenvanoverloop/rabbitmq-management-client/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/koenvanoverloop/rabbitmq-admin-client/_apis/build/status/kvanover.RabbitMQAdminClient?branchName=master)](https://dev.azure.com/koenvanoverloop/rabbitmq-admin-client/_build/latest?definitionId=2&branchName=master)
 
 ## Dependency (Binaries and Nuget Artifact)
 

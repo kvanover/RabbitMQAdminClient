@@ -293,11 +293,59 @@ namespace RabbitMQ.Management.Client
             return await Get<VHost>(string.Format(RabbitMQEndPoints.GetVirtualHost, ConvertVirtualHost(virtualHost)), cancellationToken);
         }
 
+        public async Task UpdateVirtualHost(string virtualHost, string description, IList<string> tags, CancellationToken cancellationToken = default)
+        {
+            if (virtualHost == null) throw new ArgumentNullException(nameof(virtualHost));
+            description ??= string.Empty;
+            tags ??= new List<string>();
+
+            await Put(RabbitMQEndPoints.PutVirtualHost, new VirtualHostUpdateRequest { Description = description, Tags = string.Join(",",tags)}, cancellationToken);
+        }
+
+        public async Task EnableTracingOnVHost(string virtualHost, CancellationToken cancellationToken = default)
+        {
+            if (virtualHost == null) throw new ArgumentNullException(nameof(virtualHost));
+
+            await Put(RabbitMQEndPoints.PutVirtualHost, new { tracing = true}, cancellationToken);
+        }
+
+        public async Task DisableTracingOnVHost(string virtualHost, CancellationToken cancellationToken = default)
+        {
+            if (virtualHost == null) throw new ArgumentNullException(nameof(virtualHost));
+
+            await Put(RabbitMQEndPoints.PutVirtualHost, new { tracing = false}, cancellationToken);
+        }
+
         public async Task DeleteVirtualHost(string virtualHost, CancellationToken cancellationToken = default)
         {
             if (virtualHost == null) throw new ArgumentNullException(nameof(virtualHost));
 
             await Delete(string.Format(RabbitMQEndPoints.DeleteVirtualHost, ConvertVirtualHost(virtualHost)), null, cancellationToken);
+        }
+
+        public async Task<IEnumerable<Permission>> GetPermissions(string virtualHost, QueryOrder sorting = QueryOrder.Ascending, Expression<Func<Permission, object>> sortSelector = null, PropertyFilters<Permission> filters = null, CancellationToken cancellationToken = default)
+        {
+            if (virtualHost == null) throw new ArgumentNullException(nameof(virtualHost));
+
+            return await GetList(string.Format(RabbitMQEndPoints.GetPermissions, ConvertVirtualHost(virtualHost)), sorting, sortSelector, filters, cancellationToken);
+        }
+
+        //What is /api/vhosts/name/topic-permissions?
+        //What is /api/vhosts/name/start/node?
+
+        public async Task<IEnumerable<User>> GetUsers(QueryOrder sorting = QueryOrder.Ascending, Expression<Func<User, object>> sortSelector = null, PropertyFilters<User> filters = null, CancellationToken cancellationToken = default)
+        {
+            return await GetList(RabbitMQEndPoints.GetUsers, sorting, sortSelector, filters, cancellationToken);
+        }
+        
+        public async Task<IEnumerable<User>> GetUsersWithoutPermissions(QueryOrder sorting = QueryOrder.Ascending, Expression<Func<User, object>> sortSelector = null, PropertyFilters<User> filters = null, CancellationToken cancellationToken = default)
+        {
+            return await GetList(RabbitMQEndPoints.GetUsersWithoutPermissions, sorting, sortSelector, filters, cancellationToken);
+        }
+
+        public async Task DeleteUsers(IList<string> users, CancellationToken cancellationToken = default)
+        {
+            await Post(RabbitMQEndPoints.DeleteUsers, new { users }, cancellationToken);
         }
     }
 }

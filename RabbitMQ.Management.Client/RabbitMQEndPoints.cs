@@ -34,7 +34,10 @@
         public const string GetBindingForExchanges = "api/bindings/{0}/e/{1}/e/{2}";
         public const string GetExchangeBinding = "api/bindings/{0}/e/{1}/e/{2}/{3}";
         public const string GetVirtualHosts = "api/vhosts";
-        public const string GetVirtualHost = "/api/vhosts/{0}";
+        public const string GetVirtualHost = "api/vhosts/{0}";
+        public const string GetPermissions = "api/vhosts/{0}/permissions";
+        public const string GetUsers = "api/users/";
+        public const string GetUsersWithoutPermissions = "api/users/without-permissions";
 
 
         public const string PostDefinitions = "api/definitions";
@@ -48,14 +51,15 @@
         public const string PutClusterName = "api/cluster-name";
         public const string PutExchange = "api/exchanges/{0}/{1}";
         public const string PutQueue = "api/queues/{0}/{1}";
-
+        public const string PutVirtualHost = "/api/vhosts/{0}";
 
         public const string DeleteExchange = "api/exchanges/{0}/{1}?if-unused={2}";
-        public const string DeleteQueue = "/api/queues/{0}/{1}?if-empty={2}&if-unused={3}";
+        public const string DeleteQueue = "api/queues/{0}/{1}?if-empty={2}&if-unused={3}";
         public const string DeleteQueueContents = "api/queues/{0}/{1}/contents";
         public const string DeleteQueueBinding = "api/bindings/{0}/e/{1}/q/{2}/{3}";
         public const string DeleteExchangeBinding = "api/bindings/{0}/e/{1}/e/{2}/{3}";
-        public const string DeleteVirtualHost = "/api/vhosts/{0}";
+        public const string DeleteVirtualHost = "api/vhosts/{0}";
+        public const string DeleteUsers = "api/users/bulk-delete";
         
     }
 }

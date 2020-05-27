@@ -120,7 +120,6 @@ namespace RabbitMQ.Management.Client
 
         private async Task Put<TBody>(string endpoint, TBody body, CancellationToken cancellationToken = default)
         {
-
             using (var request = new HttpRequestMessage(HttpMethod.Put, endpoint))
             {
                 var json = JsonSerializer.Serialize(body);
